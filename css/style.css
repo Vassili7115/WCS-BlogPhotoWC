@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+  background-color: #161C25;
+}
+
+li{
+	list-style: none;
+}
+
+.img-car{
+	width: 100%;
+}
+
+.logo{
+  width: 80px;
+}
+
+.navbar-title{
+	  font-size: 30px;
+	  color: white;
+	  margin: 0;
+		padding:0px;
+}
+
+#navbarNav li{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+}
+
+#navbarNav a{
+  color: white;
+  font-size: 18px;
+  padding: 0 35px 0 10px;
+}
+
+#navbarNav a:hover{
+  text-decoration: underline;
+}
+
+.nav-separator{
+ 	padding: 0;
+ 	margin-left: 45px
+}
+
+.navbar-toggler{
+	padding: 10px;
+}
+
+
+
+.img-car{
+	width: 100%;
+}
+
+.img-profil{
+	max-width: 350px;
+	max-height: 250px;
+}
+
+#actu-twitter{
+	margin-top: 20px;
+}
+
+#actu-insta{
+	margin-top: 20px;
+}
+
+#actu-pinterest{
+	margin-top: 20px;
+}
+
+footer{
+	background-color: #161C25;
+	color: white;
+}
