@@ -3,9 +3,6 @@ function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
 
-$(function () {
-   $('#myModal').modal('toggle');
-});
 
 // Close the Modal
 function closeModal() {
@@ -42,3 +39,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
