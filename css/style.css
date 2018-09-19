@@ -56,8 +56,16 @@ li{
 }
 
 .img-profil{
-	max-width: 350px;
-	max-height: 250px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#bio-mec{
+  background-color: grey;
+}
+
+.bio-text{
+  text-align: justify;
 }
 
 #actu-twitter{
