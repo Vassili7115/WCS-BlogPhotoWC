@@ -106,7 +106,6 @@ img.hover-shadow {
 }
 
 
-@media (max-width: 767px){.prev{top:65%;opacity:0.4;transform:translateX(-10px)scale(0.5);}
-.next{top:65%;opacity:0.4;transform:scale(0.5)translateX(20px);}}
+@media(max-width: 768px){img {pointer-events: none;}}
 
 
