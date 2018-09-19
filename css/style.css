@@ -4,8 +4,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-
-header{
+.navbar-dark{
   background-color: #161C25;
 }
 
@@ -24,13 +23,13 @@ li{
 .navbar-title{
 	  font-size: 30px;
 	  color: white;
-	  margin: 0;
+	  margin: 50px,0,0,0;
 		padding:0px;
 }
 
 #navbarNav li{
   font-family: 'Montserrat', sans-serif;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 #navbarNav a{
@@ -51,8 +50,6 @@ li{
 .navbar-toggler{
 	padding: 10px;
 }
-
-
 
 .img-car{
 	width: 100%;
