@@ -11,18 +11,19 @@ p{margin-bottom:0px;}
   top: 0;
   width: 100%;
   height: auto;
-  overflow: hidden;
+  overflow:   hidden;
   background-color: black;
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
+  border: none;
   background-color: #fefefe;
   margin: 2% auto auto auto;
   padding: 0;
-  width: 90%;
-  max-width: 1000px;
+  width: 50%;
+  transform: scale(0.9);
   z-index:1;
   
 }
@@ -106,7 +107,12 @@ img.hover-shadow {
 }
 
 
-@media (max-width: 767px){.prev{top:65%;opacity:0.4;transform:translateX(-10px)scale(0.5);}
-.next{top:65%;opacity:0.4;transform:scale(0.5)translateX(20px);}}
+/* @media (max-width: 767px){.prev{top:65%;opacity:0.4;transform:translateX(-10px)scale(0.5);}
+.next{top:65%;opacity:0.4;transform:scale(0.5)translateX(20px);}} */
+@media(max-width: 768px){
+  img{
+    pointer-events: none;
+  }
+}
 
 
