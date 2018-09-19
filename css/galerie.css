@@ -11,18 +11,19 @@ p{margin-bottom:0px;}
   top: 0;
   width: 100%;
   height: auto;
-  overflow: hidden;
+  overflow:   hidden;
   background-color: black;
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
+  border: none;
   background-color: #fefefe;
   margin: 2% auto auto auto;
   padding: 0;
-  width: 90%;
-  max-width: 1000px;
+  width: 50%;
+  transform: scale(0.9);
   z-index:1;
   
 }
@@ -105,7 +106,8 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-@media(max-width: 768px){img {pointer-events: none;}}
-
-
+@media(max-width: 768px){
+  img{
+    pointer-events: none;
+  }
+}
