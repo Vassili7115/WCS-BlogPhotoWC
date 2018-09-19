@@ -1,15 +1,17 @@
-form{
-  text-align: center;
+#contact-form label{
+  margin-left: 12px;
 }
 
-legend{
+#contact h2{
     text-align: center;
-    font-size: 38px;
-    margin: 30px auto 10% auto;
-    background-color: rgb(58, 56, 56);
+    font-size: 30px;
+    margin: 30px auto 5% auto;
+    background-color: #161C25;
     color: white;
     border-radius: 8px;
+    padding-bottom: 2px;
 }
+
 #imagecontact{
   margin-top: 20px;
   border-radius: 50%;
@@ -28,8 +30,13 @@ legend{
   border-radius: 8px;
 }
 #question{
-  margin: 10% auto auto auto;
+  margin: 5% auto auto auto;
 }
 .form-control::-webkit-input-placeholder {
   color: #C0C0C0;
+}
+
+#btn-validate{
+  background-color: #161C25;
+  color: white;
 }
