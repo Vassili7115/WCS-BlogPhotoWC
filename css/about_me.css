@@ -1,18 +1,12 @@
-img
-{
-	margin-top: auto;
-}
-
 section p
 {
-	text-align: justify;
+	text-align: justify, center;
 }
-
 
 h2
 {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 .img-fluid
@@ -20,4 +14,26 @@ h2
 	max-width: 100%;
 	height: auto;
 	padding: 0 0 0 0;
+}
+
+#img-about
+{
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 22%;
+	margin-bottom: 20%;
+
+}
+
+@media (max-width: 1024px){
+	#img-about{
+		margin-top: 30%;
+	}
+}
+
+@media (max-width: 768px){
+	#img-about{
+		margin-top: 5%;
+	}
 }
