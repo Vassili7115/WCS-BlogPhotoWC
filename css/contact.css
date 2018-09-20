@@ -49,3 +49,8 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px){
+	#imagecontact{
+		margin-top: 1%;
+	}
+}
