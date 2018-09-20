@@ -14,28 +14,32 @@
 
 #imagecontact{
   margin-top: 20px;
-  border-radius: 50%;
   max-width: 100%;
 }
+
 #name{
   margin: 20% auto auto auto;
 }
+
 #email{
   margin: 10% auto auto auto;
 }
+
 #number{
   margin: 10% auto auto auto;
 }
+
 #comment{
   border-radius: 8px;
 }
+
 #question{
   margin: 5% auto auto auto;
 }
+
 .form-control::-webkit-input-placeholder {
   color: #C0C0C0;
 }
-
 
 .btn-plus{
   background-color: #161C25;
@@ -53,4 +57,9 @@
 	#imagecontact{
 		margin-top: 1%;
 	}
+}
+@media (max-width:994px){
+  #imagecontact{
+    transform: scale(0.6);
+  }
 }
