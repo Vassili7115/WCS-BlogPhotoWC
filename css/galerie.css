@@ -1,5 +1,4 @@
 
-
 .figure-img:hover{transform:translateY(-7px) ;}
 .img-thumbnail {border: 0 none;}
 
@@ -90,7 +89,7 @@
 
 
 
-.modal-body{background-color:black;text-align:center;color:white;}
+.modal-body{background-color:black;text-align:center;color:white;border:black solid 1px;}
  
 img.demo {
   opacity: 0.6;
