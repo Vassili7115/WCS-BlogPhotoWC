@@ -1,3 +1,6 @@
+.container-galerie{
+  padding-top: 150px;
+}
 
 
 .figure-img:hover{transform:translateY(-7px) ;}
@@ -28,7 +31,7 @@
   width: 50%;
   transform: scale(0.9);
   z-index:1;
-  
+
 }
 
 /* The Close Button */
@@ -91,7 +94,7 @@
 
 
 .modal-body{background-color:black;text-align:center;color:white;}
- 
+
 img.demo {
   opacity: 0.6;
 }
