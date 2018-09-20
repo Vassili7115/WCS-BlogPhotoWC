@@ -6,7 +6,7 @@ section p
 h2
 {
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 .img-fluid
@@ -25,11 +25,7 @@ h2
 	margin-bottom: 10%;
 }
 
-@media (max-width: 1024px){
-	#img-about{
-		margin-top: 20%;
-	}
-}
+
 
 @media (max-width: 768px){
 	#img-about{
@@ -37,3 +33,9 @@ h2
 	}
 }
 
+@media (max-width: 1440px){
+	#img-about{
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+}

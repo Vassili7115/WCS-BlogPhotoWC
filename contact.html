@@ -28,25 +28,28 @@
 
       <!--          NAVBAR desktop          -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Accueil<span class="nav-separator d-none d-lg-inline-flex">|</span></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Accueil<span class="nav-separator d-none d-lg-inline-flex">|</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerie.html">Galerie<span class="nav-separator d-none d-lg-inline-flex">|</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="galerie.html">Galerie<span class="nav-separator d-none d-lg-inline-flex">|</span></a>
+              <a class="nav-link" href="about_me.html">A propos<span class="nav-separator d-none d-lg-inline-flex">|</span></a>
           </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">A propos</a>
-          </li>
-        </ul>
-      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+</ul>
+</div>
     </nav>
     <!---          NAVBAR desktop          -->
     <!--          NAVBAR          -->
            </header>
 
-      <div class="container-fluid col-10 offset-1 mt-5 mb-5">
+      <div id="container-contact" class="container-fluid col-10 offset-1 mt-5 mb-5">
         <div class="row">
           <div class="col-lg-5 col-md-12">
             <img class="img-thumbnail" id="imagecontact" src="images/contact.png" alt="photographe">
@@ -79,8 +82,8 @@
                     <p><label for="comment">Comment*</label>
                         <textarea class="form-control" id="comment" rows="5" cols="40" required ></textarea></p>
                 </div>
-                <div class="from-group justify-content-end">
-                  <button id="btn-validate" input="submit" class="btn btn-plus">Send</button>
+                <div class="row from-group justify-content-end mr-1">
+               <button type="button" class="btn btn-plus">Envoyer</button>
                 </div>
               </form>
           </div>
