@@ -21,13 +21,13 @@ h2
 	max-width: 100%;
 	height: auto;
 	text-align: center;
-	margin-top: 22%;
-	margin-bottom: 20%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 @media (max-width: 1024px){
 	#img-about{
-		margin-top: 30%;
+		margin-top: 20%;
 	}
 }
 
@@ -36,3 +36,4 @@ h2
 		margin-top: 5%;
 	}
 }
+
