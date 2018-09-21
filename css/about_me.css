@@ -1,61 +1,44 @@
-#contact-form label{
-	margin-left: 12px;
-  }
-  
-  #contact h2{
-	  text-align: center;
-	  font-size: 30px;
-	  margin: 30px auto 5% auto;
-	  background-color: #161C25;
-	  color: white;
-	  border-radius: 8px;
-	  padding-bottom: 2px;
-  }
-  
-  #imagecontact{
-	margin-top: 20px;
-	border-radius: 50%;
+
+section p
+{
+	text-align: justify;
+}
+
+h2
+{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.img-fluid
+{
 	max-width: 100%;
-  }
-  #name{
-	margin: 20% auto auto auto;
-  }
-  #email{
-	margin: 10% auto auto auto;
-  }
-  #number{
-	margin: 10% auto auto auto;
-  }
-  #comment{
-	border-radius: 8px;
-  }
-  #question{
-	margin: 5% auto auto auto;
-  }
-  .form-control::-webkit-input-placeholder {
-	color: #C0C0C0;
-  }
-  
-  
-  .btn-plus{
-	background-color: #161C25;
-	color: white;
-  }
-  
-  .btn-plus:hover{
-	background-color: white;
-	color: #161C25;
-	border : 1px solid #161C25;
-	box-sizing: border-box;
-  }
-  
-  @media (max-width: 768px){
-	  #imagecontact{
-		  margin-top: 1%;
-	  }
-  }
-@media (max-width: 1024px){
+	height: auto;
+	padding: 0 0 0 0;
+}
+
+#img-about
+{
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+
+
+@media (max-width: 768px){
+
 	#img-about{
-		margin-top: 30%;
+		margin-top: 5%;
+	}
+
+}
+
+@media (max-width: 1440px){
+	#img-about{
+		margin-top: 25%;
+		margin-bottom: 25%;
 	}
 }
