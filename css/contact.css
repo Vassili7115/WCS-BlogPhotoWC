@@ -13,7 +13,7 @@
 }
 
 #imagecontact{
-  margin-top: 20px;
+  margin-top: 6%;
   max-width: 100%;
 }
 
@@ -53,13 +53,16 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px){
-	#imagecontact{
-		margin-top: 1%;
-	}
-}
-@media (max-width:994px){
+/* @media (max-width:994px){
   #imagecontact{
     transform: scale(0.6);
   }
+} */
+
+@media (max-width: 768px){
+	#imagecontact{
+    margin-top: 1%;
+    margin-left: 5%;
+    max-width: 90%;
+	}
 }

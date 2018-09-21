@@ -56,33 +56,34 @@
     
               <div id="contact" class="offset-lg-1 col-lg-6 col-md-12">
                 <h2>Contact</h2>
-                  <form id="contact-form" action="mailto:wildo.coda75@gmail.com">
+                  <form id="contact-form" action="https://formspree.io/wildo.coda75@gmail.com"
+                  method="POST">
                     <div class="form-group">
-                      <p><label for="Name">Name*</label>
-                        <input class="form-control" type="text" id="Name" placeholder="Henry" autofocus required />
+                      <p><label for="Name">Nom*</label>
+                        <input class="form-control" type="text" id="Name" name="name" placeholder="Henry" autofocus required />
                       </p>
                     </div>
                     <div class="form-group">
                       <p><label for="emailadress">Email*</label>
-                        <input class="form-control" type="email" id="emailadress" placeholder="merryxmas@hoho.com" required /></p>
+                        <input name="name" class="form-control" type="email" id="emailadress" placeholder="merryxmas@hoho.com" required /></p>
                     </div>
                     <div class="form-group">
-                      <p><label for="Number">Number</label>
-                        <input class="form-control" type="tel" id="Number" placeholder="0701020304" /></p>
+                      <p><label for="Number">Numéro</label>
+                        <input name="name" class="form-control" type="tel" id="Number" placeholder="0701020304" /></p>
                     </div>
                     <div class="form-group">
-                      <select class="form-control" id ="question" name="Question" size="1">
+                      <select name="name" class="form-control" id ="question" name="Question" size="1">
                         <option>Je souhaite vous contacter pour un projet</option>
                         <option>Je souhaite vous contacter pour un partenariat</option>
                         <option>Autre</option>
                       </select>
                     </div>
                     <div class="form-group">
-                        <p><label for="comment">Comment*</label>
-                            <textarea class="form-control" id="comment" rows="5" cols="40" required ></textarea></p>
+                        <p><label for="comment">Commentaire*</label>
+                            <textarea name="name" class="form-control" id="comment" rows="5" cols="40" required ></textarea></p>
                     </div>
                     <div class="row from-group justify-content-end mr-1">
-                   <button type="button" class="btn btn-plus">Envoyer</button>
+                      <button type="submit" value="send"class="btn btn-plus">Envoyer</button>
                     </div>
                   </form>
               </div>
