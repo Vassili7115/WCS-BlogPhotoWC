@@ -1,0 +1,51 @@
+section p
+{
+	text-align: justify;
+}
+
+#title-about-me
+{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.img-fluid
+{
+	max-width: 100%;
+	height: auto;
+	padding: 0 0 0 0;
+}
+
+#img-about
+{
+	max-width: 90%;
+	height: auto;
+	text-align: center;
+	margin-top: 24%;
+	margin-bottom: 10%;
+}
+
+#container-text-about-me{
+	margin-bottom: 2%;
+}
+
+@media (max-width: 1024px){
+	#img-about{
+		margin-top: 30%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 768px){
+	#img-about{
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 768px){
+	#img-about{
+		margin-top: 5%;
+		margin-left: 2%;
+	}
+}

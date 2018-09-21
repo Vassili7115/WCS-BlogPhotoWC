@@ -1,0 +1,56 @@
+.title-desktop{
+	text-align: center;
+	color: white;
+	font-size: 68px;
+	line-height: 0;
+	}
+
+
+.title-mobile{
+	text-align: center;
+	color: white;
+	font-size: 160%;
+	margin-top: 2%;
+	position: absolute;
+	left: 33%;
+}
+
+.logo-desktop{
+	height: 120px;
+	text-align: inherit;
+}
+
+.logo-mobile{
+	height: 6.5%;
+	margin: 3%;
+	position: absolute;
+	top: 3%;
+	left: 25%;
+}
+
+.nav-link{
+	color: white;
+	font-size: 110%;
+	margin: 25px auto 0px auto;
+	padding : 0 43px;
+}
+
+
+.nav-item{
+	padding: 2% 0;
+}
+
+.burger-button{
+	padding: 2.5%;
+	margin: 1%
+}
+
+.full-container{
+	background-color: #333333;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    cursor: pointer;
+}
+
