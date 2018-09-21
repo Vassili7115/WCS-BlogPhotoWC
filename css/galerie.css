@@ -2,7 +2,6 @@
   padding-top: 150px;
 }
 
-
 .figure-img:hover{transform:translateY(-7px) ;}
 .img-thumbnail {border: 0 none;}
 
@@ -93,7 +92,8 @@
 
 
 
-.modal-body{background-color:black;text-align:center;color:white;}
+
+.modal-body{background-color:black;text-align:center;color:white;border:black solid 1px;}
 
 img.demo {
   opacity: 0.6;
@@ -111,6 +111,8 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 @media(max-width: 768px){
   img{

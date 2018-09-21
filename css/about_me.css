@@ -1,3 +1,4 @@
+
 section p
 {
 	text-align: justify;
@@ -28,9 +29,11 @@ h2
 
 
 @media (max-width: 768px){
+
 	#img-about{
 		margin-top: 5%;
 	}
+
 }
 
 @media (max-width: 1440px){
